@@ -1,23 +1,21 @@
-// Import styling
+// Import dependencies and styles
 import './About.css';
-// Import image directly into your project
-import profileImage from '../../assets/bleh.jpg'; // Move your image to this project directory
+import profileImage from "../../assets/bleh.jpg";
 
 function About() {
     return (
         <section className="about">
-            <h2>About Me</h2>
-            
-            {/* Profile image container */}
             <div className="profile-image">
-                <img src={profileImage} alt="Full-Stack Web Developer" />
+                <img src={profileImage} alt="Kassandra Peasley" />
             </div>
-
-            {/* Bio content */}
-            <div className="bio">
+            <div className="about-content">
+                <h2>About Me</h2>
                 <p>
-                    Welcome! I'm Kassandra, a full-stack web developer passionate about 
-                    creating responsive and user-friendly applications. I strive to bring a unique perspective to every project.
+                    Becoming more is simply an act of doing more. Let's do better together.
+                </p>
+                <p>
+                Welcome! I'm Kassandra, a full-stack web developer passionate about 
+                creating responsive and user-friendly applications. I strive to bring a unique perspective to every project.
                 </p>
             </div>
         </section>

@@ -1,18 +1,25 @@
 /* About section container */
 .about {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    animation: fadeIn 0.8s ease;
-  }
-  
-  /* Profile image styling */
-  .profile-image {
-    text-align: center;
-    margin: 2rem 0;
-  }
+  color: #bdf6fadc;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem; /* Adds space below the header */
+}
+
+.profile-image {
+    flex: 0 0 300px; /* Adjust width as needed */
+}
+
+.about-content {
+    flex: 1;
+    margin-top: 4rem;
+}
   
   .profile-image img {
+    margin-top: 1.5rem;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -29,7 +36,7 @@
   /* Bio content styling */
   .bio {
     line-height: 1.8;
-    color: #2c3e50;
+    color: #0ff7eb80;
   }
   
   .bio p {

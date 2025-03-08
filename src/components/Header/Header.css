@@ -1,14 +1,15 @@
 /* Header container */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color:  #FF69B4;
-    background-image: linear-gradient(to right, #FF69B4, #9370DB);
-    color: white;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(to right, #f87cba, #69c9bcc4);
+  width: 86%; /* More compact width */
+  margin-left: 2rem; /* Left alignment */
+  margin-top: 2rem;
+  border-radius: 25px;
+} 
   /* Header title/name styling */
   .header h1 {
     margin: 0;
