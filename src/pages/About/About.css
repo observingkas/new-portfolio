@@ -1,0 +1,50 @@
+/* About section container */
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    animation: fadeIn 0.8s ease;
+  }
+  
+  /* Profile image styling */
+  .profile-image {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .profile-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #FF69B4;
+    box-shadow: 0 0 20px rgba(147, 112, 219, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Bio content styling */
+  .bio {
+    line-height: 1.8;
+    color: #2c3e50;
+  }
+  
+  .bio p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

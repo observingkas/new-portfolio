@@ -1,0 +1,17 @@
+/* Header container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:  #FF69B4;
+    background-image: linear-gradient(to right, #FF69B4, #9370DB);
+    color: white;
+  }
+  
+  /* Header title/name styling */
+  .header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+  }
