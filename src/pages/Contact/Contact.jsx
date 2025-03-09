@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import './Contact.css';
 
+
  // State management for form data and error messages
 function Contact() {
     const [formData, setFormData] = useState({
@@ -59,6 +60,7 @@ function Contact() {
         setErrorMessage('Failed to send message. Please try again.');
     }
 };
+
 
 
     return (
